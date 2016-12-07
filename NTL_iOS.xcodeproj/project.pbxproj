@@ -7,18 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		551F51231DF8A0CD0096EFA8 /* c_lip.c in Sources */ = {isa = PBXBuildFile; fileRef = 551F51211DF89FCC0096EFA8 /* c_lip.c */; };
+		551F51241DF8A0D90096EFA8 /* ZZ.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55CF07FD1DF87EE000B09ED9 /* ZZ.cpp */; };
+		551F51251DF8A0E00096EFA8 /* lip.c in Sources */ = {isa = PBXBuildFile; fileRef = 55CF08011DF87EE000B09ED9 /* lip.c */; };
+		551F51261DF8A0E40096EFA8 /* errors.c in Sources */ = {isa = PBXBuildFile; fileRef = 55CF07F71DF87E1300B09ED9 /* errors.c */; };
 		55CF07DA1DF857E000B09ED9 /* NTL_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55CF07D01DF857E000B09ED9 /* NTL_iOS.framework */; };
 		55CF07DF1DF857E000B09ED9 /* NTL_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55CF07DE1DF857E000B09ED9 /* NTL_iOSTests.m */; };
 		55CF07E11DF857E000B09ED9 /* NTL_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 55CF07D31DF857E000B09ED9 /* NTL_iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		55CF07F91DF87E1300B09ED9 /* errors.c in Sources */ = {isa = PBXBuildFile; fileRef = 55CF07F71DF87E1300B09ED9 /* errors.c */; };
 		55CF07FA1DF87E1300B09ED9 /* errors.h in Headers */ = {isa = PBXBuildFile; fileRef = 55CF07F81DF87E1300B09ED9 /* errors.h */; };
-		55CF08021DF87EE000B09ED9 /* c_lip.c in Sources */ = {isa = PBXBuildFile; fileRef = 55CF07FB1DF87EE000B09ED9 /* c_lip.c */; };
 		55CF08031DF87EE000B09ED9 /* c_lip.h in Headers */ = {isa = PBXBuildFile; fileRef = 55CF07FC1DF87EE000B09ED9 /* c_lip.h */; };
-		55CF08041DF87EE000B09ED9 /* ZZ.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55CF07FD1DF87EE000B09ED9 /* ZZ.cpp */; };
 		55CF08051DF87EE000B09ED9 /* ZZ.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 55CF07FE1DF87EE000B09ED9 /* ZZ.hpp */; };
 		55CF08061DF87EE000B09ED9 /* WrappedPtr.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 55CF07FF1DF87EE000B09ED9 /* WrappedPtr.hpp */; };
 		55CF08071DF87EE000B09ED9 /* lip.h in Headers */ = {isa = PBXBuildFile; fileRef = 55CF08001DF87EE000B09ED9 /* lip.h */; };
-		55CF08081DF87EE000B09ED9 /* lip.c in Sources */ = {isa = PBXBuildFile; fileRef = 55CF08011DF87EE000B09ED9 /* lip.c */; };
+		55D066981DF8A23800829B41 /* lip.c in Sources */ = {isa = PBXBuildFile; fileRef = 55CF08011DF87EE000B09ED9 /* lip.c */; };
+		55D066991DF8A24600829B41 /* c_lip.c in Sources */ = {isa = PBXBuildFile; fileRef = 551F51211DF89FCC0096EFA8 /* c_lip.c */; };
+		55D0669A1DF8A2E800829B41 /* ZZ.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55CF07FD1DF87EE000B09ED9 /* ZZ.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		551F51211DF89FCC0096EFA8 /* c_lip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = c_lip.c; sourceTree = "<group>"; };
 		55CF07D01DF857E000B09ED9 /* NTL_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NTL_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		55CF07D31DF857E000B09ED9 /* NTL_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTL_iOS.h; sourceTree = "<group>"; };
 		55CF07D41DF857E000B09ED9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -40,7 +45,6 @@
 		55CF07E01DF857E000B09ED9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55CF07F71DF87E1300B09ED9 /* errors.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = errors.c; sourceTree = "<group>"; };
 		55CF07F81DF87E1300B09ED9 /* errors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = errors.h; sourceTree = "<group>"; };
-		55CF07FB1DF87EE000B09ED9 /* c_lip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = c_lip.c; sourceTree = "<group>"; };
 		55CF07FC1DF87EE000B09ED9 /* c_lip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = c_lip.h; sourceTree = "<group>"; };
 		55CF07FD1DF87EE000B09ED9 /* ZZ.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ZZ.cpp; sourceTree = "<group>"; };
 		55CF07FE1DF87EE000B09ED9 /* ZZ.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ZZ.hpp; sourceTree = "<group>"; };
@@ -89,7 +93,7 @@
 		55CF07D21DF857E000B09ED9 /* NTL_iOS */ = {
 			isa = PBXGroup;
 			children = (
-				55CF07FB1DF87EE000B09ED9 /* c_lip.c */,
+				551F51211DF89FCC0096EFA8 /* c_lip.c */,
 				55CF07FC1DF87EE000B09ED9 /* c_lip.h */,
 				55CF07FD1DF87EE000B09ED9 /* ZZ.cpp */,
 				55CF07FE1DF87EE000B09ED9 /* ZZ.hpp */,
@@ -227,9 +231,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55CF08041DF87EE000B09ED9 /* ZZ.cpp in Sources */,
-				55CF08021DF87EE000B09ED9 /* c_lip.c in Sources */,
-				55CF08081DF87EE000B09ED9 /* lip.c in Sources */,
+				55D0669A1DF8A2E800829B41 /* ZZ.cpp in Sources */,
+				55D066991DF8A24600829B41 /* c_lip.c in Sources */,
+				55D066981DF8A23800829B41 /* lip.c in Sources */,
 				55CF07F91DF87E1300B09ED9 /* errors.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,6 +243,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				55CF07DF1DF857E000B09ED9 /* NTL_iOSTests.m in Sources */,
+				551F51241DF8A0D90096EFA8 /* ZZ.cpp in Sources */,
+				551F51231DF8A0CD0096EFA8 /* c_lip.c in Sources */,
+				551F51251DF8A0E00096EFA8 /* lip.c in Sources */,
+				551F51261DF8A0E40096EFA8 /* errors.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +430,7 @@
 				55CF07E61DF857E000B09ED9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		55CF07E71DF857E000B09ED9 /* Build configuration list for PBXNativeTarget "NTL_iOSTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +439,7 @@
 				55CF07E91DF857E000B09ED9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

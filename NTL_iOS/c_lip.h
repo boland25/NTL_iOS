@@ -5,10 +5,13 @@
 //  Created by Steve Brenneis on 12/7/16.
 //
 
+// Leading underscores removed. C++11 reserves identifiers
+// with leading and trailing underscores in all scopes.
+//
+
 #ifndef c_lip_h
 #define c_lip_h
 
-// Macros. Look out!
 #define NTL_verylong _ntl_verylong
 #define NTL_verylong_body _ntl_verylong_body
 #define NTL_zfree _ntl_zfree

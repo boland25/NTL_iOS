@@ -14,7 +14,7 @@ namespace NTL {
 
     ZZ::ZZ(long a) {
 
-        NTL_zintoz(a, &rep);
+        _ntl_zintoz1(a, &rep);
 
     }
 

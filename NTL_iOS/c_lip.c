@@ -17,10 +17,10 @@ void _ntl_zfree(_ntl_verylong *x) {
         if ((*x)[-1] & 1) {
             LogicError("Internal error: can't free this _ntl_verylong");
         }
-
+        
         y = (*x - 1);
         free(y);
         *x = 0;
     }
-
+    
 }

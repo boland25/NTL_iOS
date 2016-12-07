@@ -23,14 +23,15 @@ inline void InputError(const char *msg) { throw InputErrorObject(msg); }
 
 #else
 
-inline void MemoryError() { TerminalError("out of memory"); }
-inline void Error(const char *msg) { TerminalError(msg); }
-inline void LogicError(const char *msg) { TerminalError(msg); }
-inline void ArithmeticError(const char *msg) { TerminalError(msg); }
-inline void InvModError(const char *msg) { TerminalError(msg); }
-inline void ResourceError(const char *msg) { TerminalError(msg); }
-inline void FileError(const char *msg) { TerminalError(msg); }
-inline void InputError(const char *msg) { TerminalError(msg); }
+// Removed the inline keyword for C99 compatibility
+void MemoryError() { TerminalError("out of memory"); }
+void Error(const char *msg) { TerminalError(msg); }
+void LogicError(const char *msg) { TerminalError(msg); }
+void ArithmeticError(const char *msg) { TerminalError(msg); }
+void InvModError(const char *msg) { TerminalError(msg); }
+void ResourceError(const char *msg) { TerminalError(msg); }
+void FileError(const char *msg) { TerminalError(msg); }
+void InputError(const char *msg) { TerminalError(msg); }
 
 #endif
 
