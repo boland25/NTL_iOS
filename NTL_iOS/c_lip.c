@@ -3,13 +3,12 @@
 //  NTL_iOS
 //
 //  Created by Steve Brenneis on 12/7/16.
-//  Copyright © 2016 CryptoKitty. All rights reserved.
 //
 
 #include "c_lip.h"
+#include "errors.h"
 #include <stdlib.h>
 
-// What. The. Actual. Fuck.
 void _ntl_zfree(_ntl_verylong *x) {
     
     _ntl_verylong y;
