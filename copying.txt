@@ -1,0 +1,35 @@
+
+COPYRIGHT NOTICE
+
+NTL -- A Library for Doing Number Theory
+Copyright (C) 1996-2016  Victor Shoup
+
+The most recent version of NTL is available at http://www.shoup.net
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2
+of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
+
+This entire copyright notice should be placed in an appropriately
+conspicuous place accompanying all distributions of software that
+make use of NTL.
+
+The above terms apply to all of the software modules distributed with NTL,
+i.e., all source files in either the ntl-xxx.tar.gz or WinNTL-xxx.zip
+distributions.  In general, the individual files do not contain
+copyright notices.
+
+Note that the quad_float package is derived from the doubledouble package,
+originally developed by Keith Briggs, and also licensed unger the GNU GPL.
+The files quad_float.c and quad_float.h contain more detailed copyright
+notices.
