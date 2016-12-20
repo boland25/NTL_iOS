@@ -1,6 +1,6 @@
-# NTL_iOS
+# NTL_iOS Version 0.1
+
 Victor Shoup's Number Theory Library for iOS
-Version 0.1
 
 This is a port of Victor Shoup's Number Theory Library to iOS.
 All credit for original work goes to Victor.

@@ -9,22 +9,22 @@
 /* Begin PBXBuildFile section */
 		550AB3CE1DFA45C200960773 /* ZZ.cc in Sources */ = {isa = PBXBuildFile; fileRef = 550AB3CD1DFA45C200960773 /* ZZ.cc */; };
 		550AB3D01DFA45FE00960773 /* ZZ.h in Headers */ = {isa = PBXBuildFile; fileRef = 550AB3CF1DFA45FE00960773 /* ZZ.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		550AB3D21DFA462E00960773 /* lip.h in Headers */ = {isa = PBXBuildFile; fileRef = 550AB3D11DFA462E00960773 /* lip.h */; };
-		550AB3D41DFA467100960773 /* ctools.h in Headers */ = {isa = PBXBuildFile; fileRef = 550AB3D31DFA467100960773 /* ctools.h */; };
-		550AB3D61DFA46AA00960773 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 550AB3D51DFA46AA00960773 /* config.h */; };
-		550AB3E01DFA4F8C00960773 /* mach_desc.h in Headers */ = {isa = PBXBuildFile; fileRef = 550AB3DF1DFA4F8C00960773 /* mach_desc.h */; };
-		550AB3E21DFA4FA600960773 /* HAVE_LL_TYPE.h in Headers */ = {isa = PBXBuildFile; fileRef = 550AB3E11DFA4FA600960773 /* HAVE_LL_TYPE.h */; };
-		550AB3E61DFA4FE600960773 /* HAVE_AVX.h in Headers */ = {isa = PBXBuildFile; fileRef = 550AB3E31DFA4FE600960773 /* HAVE_AVX.h */; };
-		550AB3E71DFA4FE600960773 /* HAVE_BUILTIN_CLZL.h in Headers */ = {isa = PBXBuildFile; fileRef = 550AB3E41DFA4FE600960773 /* HAVE_BUILTIN_CLZL.h */; };
-		550AB3E81DFA4FE600960773 /* HAVE_FMA.h in Headers */ = {isa = PBXBuildFile; fileRef = 550AB3E51DFA4FE600960773 /* HAVE_FMA.h */; };
-		550AB3EB1DFA501A00960773 /* g_lip.h in Headers */ = {isa = PBXBuildFile; fileRef = 550AB3E91DFA501A00960773 /* g_lip.h */; };
-		550AB3EC1DFA501B00960773 /* gmp_aux.h in Headers */ = {isa = PBXBuildFile; fileRef = 550AB3EA1DFA501A00960773 /* gmp_aux.h */; };
-		550AB3EE1DFA507600960773 /* tools.h in Headers */ = {isa = PBXBuildFile; fileRef = 550AB3ED1DFA507600960773 /* tools.h */; };
-		550AB3F01DFA509000960773 /* vector.h in Headers */ = {isa = PBXBuildFile; fileRef = 550AB3EF1DFA509000960773 /* vector.h */; };
-		550AB3F21DFA50D100960773 /* new.h in Headers */ = {isa = PBXBuildFile; fileRef = 550AB3F11DFA50D100960773 /* new.h */; };
-		550AB3F41DFA511B00960773 /* SmartPtr.h in Headers */ = {isa = PBXBuildFile; fileRef = 550AB3F31DFA511B00960773 /* SmartPtr.h */; };
-		550AB3F61DFA515000960773 /* thread.h in Headers */ = {isa = PBXBuildFile; fileRef = 550AB3F51DFA515000960773 /* thread.h */; };
-		550AB3F81DFA51A800960773 /* sp_arith.h in Headers */ = {isa = PBXBuildFile; fileRef = 550AB3F71DFA51A800960773 /* sp_arith.h */; };
+		550AB3D21DFA462E00960773 /* lip.h in Headers */ = {isa = PBXBuildFile; fileRef = 550AB3D11DFA462E00960773 /* lip.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550AB3D41DFA467100960773 /* ctools.h in Headers */ = {isa = PBXBuildFile; fileRef = 550AB3D31DFA467100960773 /* ctools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550AB3D61DFA46AA00960773 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 550AB3D51DFA46AA00960773 /* config.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550AB3E01DFA4F8C00960773 /* mach_desc.h in Headers */ = {isa = PBXBuildFile; fileRef = 550AB3DF1DFA4F8C00960773 /* mach_desc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550AB3E21DFA4FA600960773 /* HAVE_LL_TYPE.h in Headers */ = {isa = PBXBuildFile; fileRef = 550AB3E11DFA4FA600960773 /* HAVE_LL_TYPE.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550AB3E61DFA4FE600960773 /* HAVE_AVX.h in Headers */ = {isa = PBXBuildFile; fileRef = 550AB3E31DFA4FE600960773 /* HAVE_AVX.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550AB3E71DFA4FE600960773 /* HAVE_BUILTIN_CLZL.h in Headers */ = {isa = PBXBuildFile; fileRef = 550AB3E41DFA4FE600960773 /* HAVE_BUILTIN_CLZL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550AB3E81DFA4FE600960773 /* HAVE_FMA.h in Headers */ = {isa = PBXBuildFile; fileRef = 550AB3E51DFA4FE600960773 /* HAVE_FMA.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550AB3EB1DFA501A00960773 /* g_lip.h in Headers */ = {isa = PBXBuildFile; fileRef = 550AB3E91DFA501A00960773 /* g_lip.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550AB3EC1DFA501B00960773 /* gmp_aux.h in Headers */ = {isa = PBXBuildFile; fileRef = 550AB3EA1DFA501A00960773 /* gmp_aux.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550AB3EE1DFA507600960773 /* tools.h in Headers */ = {isa = PBXBuildFile; fileRef = 550AB3ED1DFA507600960773 /* tools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550AB3F01DFA509000960773 /* vector.h in Headers */ = {isa = PBXBuildFile; fileRef = 550AB3EF1DFA509000960773 /* vector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550AB3F21DFA50D100960773 /* new.h in Headers */ = {isa = PBXBuildFile; fileRef = 550AB3F11DFA50D100960773 /* new.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550AB3F41DFA511B00960773 /* SmartPtr.h in Headers */ = {isa = PBXBuildFile; fileRef = 550AB3F31DFA511B00960773 /* SmartPtr.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550AB3F61DFA515000960773 /* thread.h in Headers */ = {isa = PBXBuildFile; fileRef = 550AB3F51DFA515000960773 /* thread.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550AB3F81DFA51A800960773 /* sp_arith.h in Headers */ = {isa = PBXBuildFile; fileRef = 550AB3F71DFA51A800960773 /* sp_arith.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		550AB3FA1DFA520500960773 /* vec_ZZ.h in Headers */ = {isa = PBXBuildFile; fileRef = 550AB3F91DFA520500960773 /* vec_ZZ.h */; };
 		550AB3FC1DFA524300960773 /* Lazy.h in Headers */ = {isa = PBXBuildFile; fileRef = 550AB3FB1DFA524300960773 /* Lazy.h */; };
 		550AB3FE1DFA531300960773 /* fileio.h in Headers */ = {isa = PBXBuildFile; fileRef = 550AB3FD1DFA531300960773 /* fileio.h */; };
@@ -182,27 +182,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				550AB3FE1DFA531300960773 /* fileio.h in Headers */,
-				550AB3D01DFA45FE00960773 /* ZZ.h in Headers */,
-				550AB3FC1DFA524300960773 /* Lazy.h in Headers */,
-				550AB3F21DFA50D100960773 /* new.h in Headers */,
-				550AB3EC1DFA501B00960773 /* gmp_aux.h in Headers */,
+				550AB3EE1DFA507600960773 /* tools.h in Headers */,
+				550AB3D41DFA467100960773 /* ctools.h in Headers */,
+				550AB3F01DFA509000960773 /* vector.h in Headers */,
+				550AB3F41DFA511B00960773 /* SmartPtr.h in Headers */,
 				550AB3E71DFA4FE600960773 /* HAVE_BUILTIN_CLZL.h in Headers */,
 				550AB3E81DFA4FE600960773 /* HAVE_FMA.h in Headers */,
-				550AB3D21DFA462E00960773 /* lip.h in Headers */,
-				550AB4001DFA562800960773 /* g_lip_impl.h in Headers */,
-				550AB3FA1DFA520500960773 /* vec_ZZ.h in Headers */,
-				550AB3EE1DFA507600960773 /* tools.h in Headers */,
-				550AB3F61DFA515000960773 /* thread.h in Headers */,
 				550AB3E61DFA4FE600960773 /* HAVE_AVX.h in Headers */,
-				550AB3D41DFA467100960773 /* ctools.h in Headers */,
-				550AB3EB1DFA501A00960773 /* g_lip.h in Headers */,
-				55CF07E11DF857E000B09ED9 /* NTL_iOS.h in Headers */,
 				550AB3E01DFA4F8C00960773 /* mach_desc.h in Headers */,
 				550AB3E21DFA4FA600960773 /* HAVE_LL_TYPE.h in Headers */,
-				550AB3F41DFA511B00960773 /* SmartPtr.h in Headers */,
+				550AB3F21DFA50D100960773 /* new.h in Headers */,
 				550AB3D61DFA46AA00960773 /* config.h in Headers */,
+				550AB3D21DFA462E00960773 /* lip.h in Headers */,
+				550AB3F61DFA515000960773 /* thread.h in Headers */,
+				550AB3EB1DFA501A00960773 /* g_lip.h in Headers */,
+				550AB3EC1DFA501B00960773 /* gmp_aux.h in Headers */,
 				550AB3F81DFA51A800960773 /* sp_arith.h in Headers */,
-				550AB3F01DFA509000960773 /* vector.h in Headers */,
+				550AB3D01DFA45FE00960773 /* ZZ.h in Headers */,
+				550AB3FC1DFA524300960773 /* Lazy.h in Headers */,
+				550AB4001DFA562800960773 /* g_lip_impl.h in Headers */,
+				550AB3FA1DFA520500960773 /* vec_ZZ.h in Headers */,
+				55CF07E11DF857E000B09ED9 /* NTL_iOS.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,6 +446,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/NTL_iOS",
 				);
+				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.CryptoKitty.NTL-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -469,6 +470,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/NTL_iOS",
 				);
+				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.CryptoKitty.NTL-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
