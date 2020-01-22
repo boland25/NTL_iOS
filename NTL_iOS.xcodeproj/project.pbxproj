@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3AB8B98123D2406400541608 /* libgmp.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AB8B98023D2406400541608 /* libgmp.dylib */; };
 		3AB8B98323D2416B00541608 /* gmp.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AB8B98223D2416B00541608 /* gmp.h */; };
 		550AB3CE1DFA45C200960773 /* ZZ.cc in Sources */ = {isa = PBXBuildFile; fileRef = 550AB3CD1DFA45C200960773 /* ZZ.cc */; };
 		550AB3D01DFA45FE00960773 /* ZZ.h in Headers */ = {isa = PBXBuildFile; fileRef = 550AB3CF1DFA45FE00960773 /* ZZ.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -53,7 +52,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3AB8B98023D2406400541608 /* libgmp.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libgmp.dylib; sourceTree = "<group>"; };
 		3AB8B98223D2416B00541608 /* gmp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gmp.h; sourceTree = "<group>"; };
 		550AB3CD1DFA45C200960773 /* ZZ.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ZZ.cc; sourceTree = "<group>"; };
 		550AB3CF1DFA45FE00960773 /* ZZ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZ.h; sourceTree = "<group>"; };
@@ -83,7 +81,6 @@
 		550AB4091DFA5DF400960773 /* fileio.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = fileio.cc; sourceTree = "<group>"; };
 		550AB40B1DFA5E9D00960773 /* GetPID.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GetPID.cc; sourceTree = "<group>"; };
 		550AB40D1DFA5EF600960773 /* thread.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = thread.cc; sourceTree = "<group>"; };
-		550AB4111DFA621800960773 /* libgmp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libgmp.a; sourceTree = "<group>"; };
 		55CF07D01DF857E000B09ED9 /* NTL_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NTL_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		55CF07D31DF857E000B09ED9 /* NTL_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTL_iOS.h; sourceTree = "<group>"; };
 		55CF07D41DF857E000B09ED9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -97,7 +94,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3AB8B98123D2406400541608 /* libgmp.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,7 +111,6 @@
 		55CF07C61DF857E000B09ED9 = {
 			isa = PBXGroup;
 			children = (
-				3AB8B98023D2406400541608 /* libgmp.dylib */,
 				55CF07D21DF857E000B09ED9 /* NTL_iOS */,
 				55CF07DD1DF857E000B09ED9 /* NTL_iOSTests */,
 				55CF07D11DF857E000B09ED9 /* Products */,
@@ -165,7 +160,6 @@
 				550AB3CF1DFA45FE00960773 /* ZZ.h */,
 				55CF07D31DF857E000B09ED9 /* NTL_iOS.h */,
 				55CF07D41DF857E000B09ED9 /* Info.plist */,
-				550AB4111DFA621800960773 /* libgmp.a */,
 			);
 			path = NTL_iOS;
 			sourceTree = "<group>";
