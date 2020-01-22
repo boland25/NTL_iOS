@@ -2,6 +2,9 @@
 #ifndef NTL_thread__H
 #define NTL_thread__H
 
+#if defined __cplusplus
+
+
 #include "tools.h"
 #include <string>
 
@@ -226,4 +229,5 @@ for reference counting in a multi-threaded environment.
 
 NTL_CLOSE_NNS
 
+#endif
 #endif

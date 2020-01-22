@@ -2,6 +2,9 @@
 #ifndef NTL_vector__H
 #define NTL_vector__H
 
+#if defined __cplusplus
+
+
 #include "tools.h"
 #include <new>
 
@@ -802,7 +805,7 @@ NTL_CLOSE_NNS
 
 
 
-
+#endif
 
 #endif
 

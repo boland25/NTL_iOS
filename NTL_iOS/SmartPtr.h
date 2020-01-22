@@ -6,7 +6,7 @@
 #include "tools.h"
 #include "thread.h"
 
-
+#if defined __cplusplus
 
 NTL_OPEN_NNS
 
@@ -1465,5 +1465,5 @@ public:
 
 NTL_CLOSE_NNS
 
-
+#endif
 #endif

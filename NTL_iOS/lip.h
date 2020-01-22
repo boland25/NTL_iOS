@@ -18,7 +18,7 @@
 
 #endif
 
-
+#if defined __cplusplus
 // These are common to both implementations
 
 class _ntl_tmp_vec {
@@ -63,5 +63,5 @@ _ntl_reduce_struct *
 _ntl_reduce_struct_build(NTL_verylong modulus, NTL_verylong excess);
 
 
-
+#endif
 #endif

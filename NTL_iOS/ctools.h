@@ -346,6 +346,7 @@ extern unsigned long exception_counter;
  */
 
 
+#if defined __cplusplus
 
 long _ntl_IsFinite(double *p);
 /* This forces a double into memory, and tests if it is "normal";
@@ -419,6 +420,6 @@ void _ntl_swap(T*& a, T*& b)
 #define NTL_AVX_LOCAL_ARRAY(x, type, n) NTL_ALIGNED_LOCAL_ARRAY(NTL_AVX_BYTE_ALIGN, x, type, n)
 
    
-
+#endif
 #endif
 

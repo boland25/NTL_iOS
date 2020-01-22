@@ -21,6 +21,8 @@
 #include "SmartPtr.h"
 #include "sp_arith.h"
 
+#if defined __cplusplus
+
 NTL_OPEN_NNS
 
 
@@ -1484,6 +1486,6 @@ void InvModError(const char *s, const ZZ& a, const ZZ& n);
 
 NTL_CLOSE_NNS
 
-
+#endif
 #endif
 

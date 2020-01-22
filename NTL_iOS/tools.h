@@ -3,6 +3,7 @@
 #define NTL_tools__H
 
 //#define NTL_TEST_EXCEPTIONS
+#if defined __cplusplus
 
 #include "ctools.h"
 #include "new.h"
@@ -617,6 +618,7 @@ public:
 
 NTL_CLOSE_NNS
 
-
 #endif
+#endif
+
 

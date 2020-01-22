@@ -36,6 +36,7 @@ The number n itself should be in the range 1..2^{NTL_SP_NBITS}-1.
 #include "lip.h"
 #include "tools.h"
 
+#if defined __cplusplus
 
 NTL_OPEN_NNS
 
@@ -1127,6 +1128,8 @@ make_sp_ll_reduce_struct(long n)
 
 
 NTL_CLOSE_NNS
+
+#endif
 
 #endif
 
